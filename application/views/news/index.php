@@ -5,6 +5,6 @@
         <?php echo $news_item['text'] ?>
     </div>
 	
-    <p><a href="news/<?php echo $news_item['slug'] ?>">View article</a></p>
+    <p><a href="index.php/news/view/<?php echo $news_item['slug'] ?>">View article</a></p>
 
 <?php endforeach ?>

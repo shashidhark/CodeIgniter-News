@@ -38,7 +38,7 @@
 |
 */
 
-$route['news'] = 'pages/view';
+$route['news'] = 'news';
 $route['default_controller'] = 'news';
 
 

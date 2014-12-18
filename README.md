@@ -1,4 +1,7 @@
 CodeIgniter-News
 ================
 
-This is a sample project using CodeIgniter.
+Installation:
+	Download this peoject.
+	Copy to server. (Document root of server)
+	Open with browser.

@@ -1,15 +1,27 @@
 <h2>Create a news item</h2>
+    <div class="alert">
+    <?php echo validation_errors(); ?>
+    </div>
 
-<?php echo validation_errors(); ?>
+<?php 
+		$attributes = array('class' => 'form-horizontal');
+		echo form_open('news/create') 
 
-<?php echo form_open('news/create') ?>
+?>
+	<div class="control-group">
+		<label class="control-label" for="title">Title</label>
+		 <div class="controls">
+			<input type="input" name="title" />
+		 </div>
+	</div>
+	 <div class="control-group">
+		<label class="control-label"  for="text">Text</label>
+		<div class="controls">
+			<textarea name="text"></textarea>
+		</div>
+	</div>
+	
 
-	<label for="title">Title</label>
-	<input type="input" name="title" /><br />
-
-	<label for="text">Text</label>
-	<textarea name="text"></textarea><br />
-
-	<input type="submit" name="submit" value="Create news item" />
+	<input type="submit" class="btn" name="submit" value="Create news item" />
 
 </form>

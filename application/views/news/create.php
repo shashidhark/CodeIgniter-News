@@ -2,10 +2,10 @@
     <div class="alert">
     <?php echo validation_errors(); ?>
     </div>
-
+	<blockquote>
 <?php 
 		$attributes = array('class' => 'form-horizontal');
-		echo form_open('news/create') 
+		echo form_open('news/create', $attributes) 
 
 ?>
 	<div class="control-group">
@@ -25,3 +25,4 @@
 	<input type="submit" class="btn" name="submit" value="Create news item" />
 
 </form>
+</blockquote>

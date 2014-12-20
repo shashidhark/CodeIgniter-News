@@ -11,7 +11,7 @@
       <div class="container">
         <nav class="blog-nav">
           <a class="blog-nav-item active" href="news">Home</a>
-		  <a class="blog-nav-item" href="create">Create</a>
+		  <a class="blog-nav-item" href="http://localhost/index.php/news/create">Create</a>
         </nav>
       </div>
     </div>

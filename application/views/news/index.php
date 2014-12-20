@@ -8,7 +8,7 @@
     			    <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
 				<p>
 				<?php echo $news_item['text'] ?><br />
-					<a href="news/view/<?php echo $news_item['slug'] ?>">More</a>
+					<a href="http://localhost/index.php/news/view/<?php echo $news_item['slug'] ?>">More</a>
 				</p>
 			 </blockquote>
 				<hr>

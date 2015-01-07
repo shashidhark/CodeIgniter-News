@@ -5,7 +5,7 @@
 	<blockquote>
 <?php 
 		$attributes = array('class' => 'form-horizontal');
-		echo form_open('news/create', $attributes) 
+		echo form_open('index.php/news/create', $attributes) 
 
 ?>
 	<div class="control-group">

@@ -14,8 +14,8 @@
 			$last = $this->uri->total_segments();
 			$record_num = $this->uri->segment($last);
 		?>
-          <a class="blog-nav-item <?php if($record_num != 'create') echo 'active';?>" href="http://localhost/index.php">Home</a>
-		  <a class="blog-nav-item <?php if($record_num == 'create') echo 'active';?>" href="http://localhost/index.php/news/create">Create</a>
+          <a class="blog-nav-item <?php if($record_num != 'create') echo 'active';?>" href="">Home</a>
+          <a class="blog-nav-item <?php if($record_num == 'create') echo 'active';?>" href="<?php echo base_url();?>index.php/news/create">Create</a>
         </nav>
       </div>
     </div>
